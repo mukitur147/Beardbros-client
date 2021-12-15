@@ -1,0 +1,68 @@
+.second-banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+
+}
+.banner-bg1{
+    background-image: url('https://i.ibb.co/bH4qtcW/b1.jpg');
+    background-size: cover;
+    padding: 90px;
+    
+}
+.banner-bg2{
+    background-image: url('https://i.ibb.co/R6Fwd48/b2.jpg');
+    background-size: cover;
+    padding: 90px;
+    
+}
+.banner-bg1 h6{
+    font-size: 22px;
+    font-weight: 600;
+}
+.banner-bg2 h6{
+    font-size: 22px;
+    font-weight: 600;
+}
+.banner-bg1 h5{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.banner-bg2 h5{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:660px) {
+    .second-banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .banner-bg2 h6{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: right;
+    }
+    .banner-bg1 h6{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+    }
+    .banner-bg2 h5{
+        text-align: right;
+        color: rgb(240, 158, 7);
+    }
+    .banner-bg1 h5{
+        text-align: left;
+        color: rgb(240, 158, 7);
+    }
+    .banner-bg1{
+        background-image: url('https://i.ibb.co/bH4qtcW/b1.jpg');
+        background-size: cover;
+        padding: 90px;
+        background-position:right;
+        
+    }
+}

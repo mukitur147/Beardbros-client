@@ -1,0 +1,64 @@
+.custom-button1{
+    border: none;
+    background-color: #EE6723;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.custom-button2{
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.navs a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(66, 63, 63);
+    font-weight: 600;
+    margin: auto;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.navs a:hover{
+   color:#EE6723 ;
+   transform: scale(1.05);
+   transition: transform 0.3s ease-in;
+   
+}
+.logo{
+    width: 60px;
+}
+h3{
+    font-size: 28px;
+    margin: auto;
+    font-family: 'Bree Serif', serif;
+    color: rgb(22, 22, 22);
+}
+.custom-button1:hover{
+    background-color: rgb(37, 37, 37);
+    transition: background-color 0.5s;
+}
+.custom-button2:hover{
+    background-color:#EE6723 ;
+    transition: background-color 0.5s;
+}
+.forms{
+    width: 70%;
+}
+@media only screen and (max-width:660px) {
+    h3{
+        font-size: 24px;
+       
+    }
+    .forms{
+        width: 90%;
+    }
+    
+}

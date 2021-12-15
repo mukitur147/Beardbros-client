@@ -1,0 +1,29 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.detailsP{
+    text-align: left;
+}
+.price{
+    font-weight: 600;
+    color: #EE6723;
+}
+.det{
+    font-size: 18px;
+    color: rgb(43, 41, 41);
+    font-weight:500;
+}
+.amount{
+    font-weight: 600;
+    font-size: 18px;
+}
+@media only screen and (max-width:660px) {
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}

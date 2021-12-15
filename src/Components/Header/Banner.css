@@ -1,0 +1,63 @@
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text{
+    text-align: left;
+}
+.banner-text h1{
+    font-family: 'Patua One', cursive;
+    font-size: 66px;
+}
+.banner-text h2{
+    font-family: 'Patua One', cursive;
+    font-size: 28px;
+    color: rgb(53, 50, 50);
+}
+.banner-text p{
+    font-size: 17px;
+    color: rgb(71, 67, 67);
+    font-weight: 600;
+}
+span{
+    color: #EE6723;
+}
+.free{
+    width: 100px;
+}
+.custom-button3{
+    border: none;
+    background-color: #EE6723;
+    color: whitesmoke;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner1{
+    width: 550px;
+}
+.custom-button3:hover{
+    background-color: rgb(37, 37, 37);
+    transform: scale(1.04);
+    transition: transform 0.3s ease-in;
+}
+@media only screen and (max-width:660px) {
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-text h1{
+        font-size: 38px;
+    }
+    .banner-text h2{
+        font-size: 20px;
+    }
+    .banner-text p{
+        font-size: 14px;
+    }
+    .custom-button3{
+        font-size: 16px;
+    }
+}

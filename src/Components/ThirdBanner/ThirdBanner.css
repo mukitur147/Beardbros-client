@@ -1,0 +1,44 @@
+.third-banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.info3{
+    width: 450px;
+}
+.ban3-det{
+    text-align: left;
+}
+.ban3-det h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.ban3-det p{
+    font-size: 18px;
+    color: rgb(104, 100, 100);
+    font-weight: 500;
+}
+.big{
+    font-size: 48px;
+}
+@media only screen and (max-width:660px) {
+    .third-banner{
+        
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+    .ban3-det h2{
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .ban3-det p{
+        font-size: 15px;
+        color: rgb(104, 100, 100);
+        font-weight: 500;
+    }
+    .big{
+        font-size: 38px;
+    }
+}

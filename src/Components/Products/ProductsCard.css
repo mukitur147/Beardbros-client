@@ -1,0 +1,26 @@
+.product-card{
+    padding: 10px;
+    box-shadow: 1px 1px 25px rgba(211, 211, 211, 0.568);
+    border-radius: 10px;
+    border: none;
+}
+.purchase-button{
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: rgba(245, 245, 245, 0.966);
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+.purchase-button:hover{
+   
+    background-color: #EE6723;
+    color: white;
+    transition: 0.4s;
+}
+small{
+    color:#EE6723 ;
+    font-weight: 600;
+}

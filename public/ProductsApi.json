@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "name": "Beard Shampoo",
+        "price": 180,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto,Lorem ipsum dolor sit amet consectetur adipisicing elit.Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto",
+        "amount": "60ml",
+        "image": "https://i.ibb.co/DM3JstK/shampoo.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Beard Comb",
+        "price": 350,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto,Lorem ipsum dolor sit amet consectetur adipisicing elit.Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto",
+        "image": "https://i.ibb.co/M7fP00d/chiruni.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Beard Oil Gutsy",
+        "price": 450,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto,Lorem ipsum dolor sit amet consectetur adipisicing elit.Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto",
+        "amount": "15ml",
+        "image": "https://i.ibb.co/hZTQDp1/gatse.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Beard Balm",
+        "price": 600,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto,Lorem ipsum dolor sit amet consectetur adipisicing elit.Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto",
+        "amount": "30gm",
+        "image": "https://i.ibb.co/xHy6F3k/bulm.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Beard Oil Spice Mariner",
+        "price": 450,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto,Lorem ipsum dolor sit amet consectetur adipisicing elit.Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto",
+        "amount": "15ml",
+        "image": "https://i.ibb.co/qDByQsQ/spice.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Beard Oil Speak and Span",
+        "price": 450,
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto,Lorem ipsum dolor sit amet consectetur adipisicing elit.Quaerat odio hic nemo voluptate blanditiis magnam ratione temporibus rerum cupiditate tempora voluptatem expedita ut aliquam, incidunt reprehenderit beatae, ullam, vero architecto",
+        "amount": "15ml",
+        "image": "https://i.ibb.co/x6hCDvP/speak.jpg"
+    }
+]
