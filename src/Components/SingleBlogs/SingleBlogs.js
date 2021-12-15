@@ -9,7 +9,7 @@ const SingleBlogs = () => {
     const [blogs,setBlogs]=useState([])
     const [singleBlog,setSingleBlog]=useState({})
     useEffect(()=>{
-        fetch('http://localhost:5000/blogs')
+        fetch('https://desolate-springs-87992.herokuapp.com/blogs')
         .then(res=>res.json())
         .then(data=>setBlogs(data))
     },[])

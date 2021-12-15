@@ -10,7 +10,7 @@ const SingleProduct = () => {
     const [products,setProducts]=useState([])
     const [singleProduct,setSingleProduct]=useState({})
     useEffect(()=>{
-        fetch('http://localhost:5000/products')
+        fetch('https://desolate-springs-87992.herokuapp.com/products')
         .then(res=>res.json())
         .then(data=>setProducts(data))
     },[])
